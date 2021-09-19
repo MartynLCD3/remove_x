@@ -28,7 +28,7 @@ function dependencia() {
     clear
     titulo
     dependencia=(tree)
-    echo -e "${turquoiseColour}Verificando dependencias...${endColour}"
+    echo -e "${turquoiseColour}Verificando dependencia...${endColour}"
     sleep 1
 
     for programa in "${dependencia[@]}"; do
